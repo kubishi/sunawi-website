@@ -8,6 +8,7 @@
   <meta property="og:title" content="Sunawi — AI & Indigenous Language Revitalization Workshop">
   <meta property="og:description" content="June 8–10, 2026 at Loyola Marymount University. Cross-disciplinary dialogue on responsible AI for endangered languages.">
   <meta property="og:type" content="website">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -260,6 +261,31 @@
       line-height: 1.65;
     }
 
+    /* ── Participants ── */
+    .participants-list {
+      margin-top: 1.5rem;
+      columns: 2;
+      column-gap: 2rem;
+    }
+
+    .participant {
+      break-inside: avoid;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--gray-100);
+    }
+
+    .participant-name {
+      font-family: var(--serif);
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--gray-900);
+    }
+
+    .participant-affiliation {
+      font-size: 0.85rem;
+      color: var(--gray-600);
+    }
+
     /* ── Committee ── */
     .committee-grid {
       display: grid;
@@ -332,6 +358,7 @@
       .hero-meta { gap: 1.5rem; }
 
       .format-grid { grid-template-columns: 1fr; }
+      .participants-list { columns: 1; }
       .committee-grid { grid-template-columns: 1fr 1fr; }
 
       .nav-links {
@@ -374,6 +401,7 @@
       <ul class="nav-links" id="navLinks">
         <li><a href="#about" onclick="closeMenu()">About</a></li>
         <li><a href="#format" onclick="closeMenu()">Format</a></li>
+        <li><a href="#participants" onclick="closeMenu()">Participants</a></li>
         <li><a href="#committee" onclick="closeMenu()">Committee</a></li>
         <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
       </ul>
@@ -415,11 +443,6 @@
         <p>While AI tools have shown real promise for supporting language documentation and revitalization, they also raise important ethical and practical questions about consent, ownership, accuracy, and long-term accountability.</p>
         <p>The goal of Sunawi is to create space for cross-disciplinary dialogue that surfaces shared concerns, highlights best practices, and helps define what responsible AI engagement should look like in this area.</p>
 
-        <blockquote class="about-quote">
-          <p>Nadüüya-sunaŵi. Think strong thoughts.</p>
-          <cite>Owens Valley Paiute</cite>
-        </blockquote>
-
         <p class="themes-heading">Key Themes</p>
         <ul class="themes-list">
           <li>Ethical AI development for endangered languages</li>
@@ -447,6 +470,78 @@
         <div class="format-card">
           <h3>Breakout Sessions</h3>
           <p>Small-group working sessions where participants collaborate on developing actionable recommendations, guidelines, and other workshop output documents for the field.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="participants">
+    <div class="section-inner">
+      <h2 class="section-title">Confirmed Participants</h2>
+      <div class="participants-list">
+        <div class="participant">
+          <div class="participant-name">Amy Fountain</div>
+          <div class="participant-affiliation">University of Arizona</div>
+        </div>
+        <div class="participant">
+          <div class="participant-name">Christian Efrain Maldonado Sifuentes</div>
+          <div class="participant-affiliation">Instituto Polit&eacute;cnico Nacional</div>
+        </div>
+        <div class="participant">
+          <div class="participant-name">Christina Kracher</div>
+          <div class="participant-affiliation">Center for Native American Youth at the Aspen Institute</div>
+        </div>
+        <div class="participant">
+          <div class="participant-name">Erin Debenport</div>
+          <div class="participant-affiliation">UCLA Anthropology</div>
+        </div>
+        <div class="participant">
+          <div class="participant-name">Helema Andrews</div>
+          <div class="participant-affiliation">Salt River Pima-Maricopa</div>
+        </div>
+        <div class="participant">
+          <div class="participant-name">İlkay Altıntaş</div>
+          <div class="participant-affiliation">San Diego Supercomputer Center</div>
+        </div>
+        <div class="participant">
+          <div class="participant-name">Jacqueline Brixey</div>
+          <div class="participant-affiliation">University of Wisconsin-Madison</div>
+        </div>
+        <div class="participant">
+          <div class="participant-name">Jessica Krim</div>
+          <div class="participant-affiliation">JSK Consulting</div>
+        </div>
+        <div class="participant">
+          <div class="participant-name">Kristine Hildebrandt</div>
+          <div class="participant-affiliation">Southern Illinois University Edwardsville</div>
+        </div>
+        <div class="participant">
+          <div class="participant-name">Luis Barragan</div>
+          <div class="participant-affiliation">Salt River Pima Maricopa Indian Communities</div>
+        </div>
+        <div class="participant">
+          <div class="participant-name">Melissa Floca</div>
+          <div class="participant-affiliation">San Diego Supercomputer Center</div>
+        </div>
+        <div class="participant">
+          <div class="participant-name">Rachel Theodore</div>
+          <div class="participant-affiliation">University of Connecticut</div>
+        </div>
+        <div class="participant">
+          <div class="participant-name">Raina Heaton</div>
+          <div class="participant-affiliation">Oklahoma University</div>
+        </div>
+        <div class="participant">
+          <div class="participant-name">Rolando Coto Solano</div>
+          <div class="participant-affiliation">Dartmouth College</div>
+        </div>
+        <div class="participant">
+          <div class="participant-name">Tracy Canard Goodluck</div>
+          <div class="participant-affiliation">Center for Native American Youth</div>
+        </div>
+        <div class="participant">
+          <div class="participant-name">Wilson de Lima Silva</div>
+          <div class="participant-affiliation">University of Arizona / National Science Foundation</div>
         </div>
       </div>
     </div>
