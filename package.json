@@ -1,0 +1,10 @@
+{
+  "name": "sunawi-website",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler pages deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
